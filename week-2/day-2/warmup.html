@@ -10,12 +10,16 @@
 <body>
 
     <h2>With display flex</h2>
-
-    <span style="display: flex; background-color: red;">
+    
+    <!-- The element that has a display:flex on it is called the, Flex Container -->
+    <span style="display: flex; background-color: red;"> <!-- Flex Container -->
+        <!-- The children of the Flex container are called, Flex Items -->
         <div style="min-width: 20px; background-color: aquamarine; border: 1px solid;">1</div>
         <div style="min-width: 20px; background-color: aquamarine; border: 1px dotted;">2</div>
         <div style="min-width: 20px; background-color: aquamarine; border: 1px dashed;">3</div>
     </span>
+    <!-- The Flex Container becomes a block element -->
+    <!-- The Flex Items become inline elements -->
 
     <br><br>
 
@@ -29,3 +33,6 @@
 
 </body>
 </html>
+
+<!-- Dont put block elements within an inline element -->
+<!-- span only takes up the space of its contents -->

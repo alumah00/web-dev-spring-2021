@@ -11,7 +11,7 @@
 ### Learning Objectives
 
 - Git Remote Add && Git Pull
-- What is CSS?
+- What is CSS? Cascading Style Sheets
 - Connecting Style To Structure
 - How the Internet/Browser Works
 - What is CSS?
@@ -43,8 +43,8 @@
 
 ### What are selectors?
     -element
-    -class
-    -id
+    -class --Will start with . in styles list
+    -id --Normally reserved for single item
 
 ### CSS Ruleset / Rule
 

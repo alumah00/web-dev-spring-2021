@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>JavaScript Carousel</h1>
+
+    <div id="window">
+        <div id="imageSlider">
+            <img src="./images2/pika1.png" alt="">
+            <img src="./images2/pika2.png" alt="">
+            <img src="./images2/pika3.png" alt="">
+        </div>
+    </div>
+
+    <button onclick="previousImage()">Previous Image</button>
+    <button onclick="nextImage()">Next Image</button>
+
+    <script>
+        let position = 0;
+        
+        const previousImage = function() {
+            position = position - 200;
+            document.getElementById('imageSlider').style.transform = `translate(${position}px, 0)`;
+        }
+
+        const nextImage = function() {
+            position = position + 200;
+            document.getElementById('imageSlider').style.transform = `translate(${position}px, 0)`;
+        }
+
+    </script>
+
+
+</body>
+</html>
